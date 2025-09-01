@@ -6,8 +6,6 @@ import jwt from 'jsonwebtoken'
 
 //added auth controller functions here
 //also commenting on the changes
-//done work on the main branch
-//added comment on the main branch
 export const signup = async (req, res, next) => {
     const { username, email, password } = req.body;
 
