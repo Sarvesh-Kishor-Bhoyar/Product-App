@@ -5,6 +5,7 @@ import { errorHandler } from "../utils/error.js"
 import jwt from 'jsonwebtoken'
 
 //added auth controller functions here
+//also commenting on the changes
 export const signup = async (req, res, next) => {
     const { username, email, password } = req.body;
 
